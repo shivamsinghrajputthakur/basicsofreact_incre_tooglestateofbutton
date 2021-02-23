@@ -1,24 +1,58 @@
 import logo from './logo.svg';
+
 import './App.css';
+import hi from './hi';
+import Hello from './Hello';
+import Message from './Message';
+import Hookerss from './Hookerss';
+import GetTime from './GetTime';
+import DateGet from './DateGet';
+
+import outside from './outside';
+
+
+
+
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+
+
+
+
+
+   
+
+
+
+
+
+<div className="divtag">
+<h1>increment Decrement state</h1>
+<Hookerss />
+</div>
+
+<div className="divtag">
+<h1>yutube toggle like subscribe</h1>
+<Message />
+</div>
+<div className="divtag">
+<GetTime />
+</div>
+<h1>time get</h1>
+<DateGet />
+
+
+  </>
   );
 }
 

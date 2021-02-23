@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+h1{
+  color:rgb(255, 0, 212);
+}
+.but{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+ 
+ 
+
+
+  
+}
+.butt{
+  color: rgb(0, 17, 255);
+  background-color: rgb(248, 212, 6);
+  border-radius: 10px;
+  border-color:rgb(246, 9, 9);
+  padding: 13px;
+  font-size: large;
+}
+
+
+
+.divtag{
+
+  border-bottom: 3px solid black;
+  margin-top: 35px;
+  border-radius: 5px;
+}
